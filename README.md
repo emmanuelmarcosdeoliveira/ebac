@@ -1,2 +1,2 @@
 # Curso_Ebac_Frontend #
-Aqui está meus Exercicios do curso
+Aqui está meus Exercicios do curso.
