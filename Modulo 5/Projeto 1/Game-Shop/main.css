@@ -81,3 +81,15 @@ section p {
 .store-front {
 margin-right: 32px;  
 }
+
+.social-link img {
+height: 48px
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+}
