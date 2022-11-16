@@ -6,7 +6,7 @@
 
 header, section h2, section h3, form button {
     font-family: 'Bungee', cursive;
-    font-weight: normal;
+    font-weight:normal;
 }
 
 body, input, textarea {
