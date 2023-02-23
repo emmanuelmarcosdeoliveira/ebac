@@ -49,3 +49,11 @@ button:hover {
   color: #fff;
   display: none;
 }
+
+.error-message{
+    font-size: 14px;
+padding: 8px;
+background-color: rgb(230, 13, 13);
+color: #fff;
+margin-bottom: 8px;
+}
