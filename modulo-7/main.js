@@ -15,13 +15,13 @@ form.addEventListener("submit", function (e) {
   if (formEValido) {
     const containerMensagemSucesso = document.querySelector(".sucess-message");
     containerMensagemSucesso.innerHTML = mensagemSucesso;
-    containerMensagemSucesso.style.display = 'block';
+    containerMensagemSucesso.style.display = "block";
 
     nomeBeneficiario.value = " ";
     numeroContaBeneficiario.value = " ";
     valorDeposito.value = " ";
   } else {
-    alert("O nome não está completo");
+    document.querySelector(".error-message").style.display = "block";
   }
 });
 
