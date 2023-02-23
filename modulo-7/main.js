@@ -13,7 +13,9 @@ form.addEventListener("submit", function (e) {
   const mensagemSucesso = `Montante de <strong>${valorDeposito.value}</strong> depositado para o cliente <strong>${nomeBeneficiario.value}</strong> - conta: <strong> ${numeroContaBeneficiario.value}</strong>`;
   formEValido = validaNome(nomeBeneficiario.value);
   if (formEValido) {
-    document.querySelector(".sucess-message").innerHTML = mensagemSucesso;
+    const containerMensagemSucesso = document.querySelector(".sucess-message");
+    containerMensagemSucesso.innerHTML = mensagemSucesso;
+    containerMensagemSucesso.style.display = 'block';
 
     nomeBeneficiario.value = " ";
     numeroContaBeneficiario.value = " ";
