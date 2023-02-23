@@ -58,3 +58,9 @@ color: #fff;
 margin-bottom: 8px;
 display: none;
 }
+
+input.error {
+  color: red;
+  border-color: red;
+  outline-color: red ;
+}
